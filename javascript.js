@@ -13,7 +13,7 @@ $("#boxShrink").on("click", function() {
 
 $("#boxFadeout").on("click", function() {
     // will decrease opacity on click
-    $("#box").fadeOut()
+    $("#box").fadeTo("slow",".01")
 })
 $("#boxFadein").on("click", function() {
     // will increase opacity on click
